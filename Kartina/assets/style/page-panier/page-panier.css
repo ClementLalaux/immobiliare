@@ -1,0 +1,205 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.container {
+  background-color: #f1efef;
+}
+.container h1 {
+  margin: 15px;
+}
+.container #description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: white;
+}
+.container #description .photo img {
+  width: 100px;
+}
+.container #description .artiste {
+  width: 250px;
+}
+.container #description .artiste .artist-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.container #description .artiste .produit-name {
+  color: #656363;
+  font-size: 1rem;
+  text-transform: capitalize;
+  overflow-wrap: break-word;
+}
+.container #description .artiste .ed-limite {
+  font-size: 0.8rem;
+}
+.container #description .caracteristique .format {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.container #description .caracteristique .f-detail {
+  color: #656363;
+  font-size: 0.8rem;
+}
+.container #description .caracteristique .finition {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.container #description .caracteristique .fi-detail {
+  color: #656363;
+  font-size: 0.8rem;
+}
+.container #description .caracteristique .cadre {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.container #description .caracteristique .c-detail {
+  color: #656363;
+  font-size: 0.8rem;
+}
+.container #description .quantite .title {
+  font-weight: bold;
+}
+.container #description .quantite input {
+  width: 55px;
+}
+.container #description .quantite #delete a {
+  text-decoration: none;
+  color: #656363;
+}
+.container #description .quantite #delete a .icone_x {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.container #description .prix {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.container .lien_code {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.container .lien_code .lien-achat {
+  margin-top: 10px;
+}
+.container .lien_code .lien-achat a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.container .lien_code .code_promo {
+  margin-right: 15px;
+  width: 30%;
+  background-color: white;
+  padding: 10px;
+}
+.container .lien_code .code_promo .form form label {
+  color: #656363;
+  font-size: 0.8rem;
+}
+.container .total {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .total .total_group {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-right: 15px;
+  margin-top: 2px;
+  padding: 10px;
+  background-color: white;
+}
+.container .total .total_group .titre_total {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.container .total .total_group .prix_tva .prix {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: right;
+}
+.container .total .total_group .prix_tva .tva {
+  font-size: 0.7rem;
+}
+.container .lien_valider {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+  margin-right: 15px;
+}
+.container .lien_valider a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #d63031;
+  width: 30%;
+  padding: 10px;
+}
+.container .paiement_secure {
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.container .paiement_secure .titre_secure {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  color: #808080;
+}
+.container .paiement_secure .titre_secure .icone_cadenna img {
+  width: 13px;
+  margin-left: 4px;
+}
+.container .icone_secure {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.container .icone_secure .icone_paiement {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  filter: grayscale(1);
+}
+.container .icone_secure .icone_paiement .cb-icone {
+  width: 35px;
+  margin: 7px;
+  margin-top: 9px;
+}
+.container .icone_secure .icone_paiement .paypal-icone {
+  width: 70px;
+  margin: 7px;
+  margin-top: 14px;
+}
+.container .icone_secure .icone_paiement .visa-icone {
+  width: 50px;
+  margin: 7px;
+  margin-top: 14px;
+}
+.container .icone_secure .icone_paiement .mc-icone {
+  width: 40px;
+  margin: 7px;
+}
+.container .icone_secure .icone_paiement .ae-icone {
+  width: 50px;
+  margin: 7px;
+}
+
+/*# sourceMappingURL=page-panier.css.map */
